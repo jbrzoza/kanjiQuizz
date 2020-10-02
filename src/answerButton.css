@@ -1,0 +1,71 @@
+.answerButton {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .answerList button:hover {
+    border: 1px solid grey;
+  }
+  
+  .green {
+    background-color: rgba(150, 220, 70, 0.8);
+  }
+  
+  .grey {
+    background-color: rgba(255,255,255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .grey:disabled {
+    background-color: rgba(220,220,220, 0.7);
+  }
+  
+  .red {
+    background-color: rgba(220, 150, 150, 0.8);
+  }
+  
+  .yellow {
+    background-color: rgba(236, 230, 139, 0.8);
+  }
+
+  .answerButtonHiragana {
+    font-weight: bold;
+    font-size: 5vw;
+    color: black;
+  }
+  
+  .answerButtonDefinition {
+    font-weight: normal;
+    font-size: 3vw;
+    color: grey;
+  }
+  
+  .answerButton button:disabled {
+    cursor: auto;
+    color: grey;
+  }
+  
+  .answerButton button:disabled:hover {
+    cursor: auto;
+    border: 1px solid lightgray;
+    color: grey;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 800px) {
+    .answerButtonHiragana {
+      font-size: 40px;
+    }
+    
+    .answerButtonDefinition {
+      font-size: 24px;
+    }
+  }

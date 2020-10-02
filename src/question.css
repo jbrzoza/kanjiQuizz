@@ -1,0 +1,61 @@
+.question {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/29/09/40/bokeh-1780217_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120px;
+    color: rgb(0,0,0, 0.6);
+    flex:1;
+  }
+  
+  .question0 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .question0_small {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 8vh;
+  }
+  
+  .question1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .question1_small {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 8vh;
+  }
+  
+  .question__score {
+    position: absolute;
+    font-size: 30px;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px;
+  }
+
+  .question__details {
+    position: absolute;
+    font-size: 10px;
+    bottom: 0px;
+    left: 0px;
+    margin: 5px;
+  }
+
+  .question__message {
+    font-size: 20px;
+  }

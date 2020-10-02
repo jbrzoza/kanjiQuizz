@@ -1,0 +1,107 @@
+.answerList-container {
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.answerList {
+    position: relative;
+    top:0px;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    height: 100%;
+}
+
+.answerList button {
+  width: 100%;
+  height: 120px;
+  font-size: 4vh;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  color: grey;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+.answerList .answerButton:nth-child(1), .answerButton:nth-child(2) {
+  align-self: flex-end;
+}
+
+.answerList .answerButton:nth-child(3), .answerButton:nth-child(4) {
+  align-self: flex-start;
+}
+
+.hideAnswers {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+}
+
+.actionButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+  .actionButtonContainer > button {
+    font-size: 1.8vw;
+    border: 0px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 45px;
+  }
+
+  .actionButtonContainer > a > button {
+    font-size: 1.8vw;
+    max-height: 45px;
+  }
+  
+  .options {
+    position: absolute;
+    top:45px;
+    right:5px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto auto;
+    justify-items: start;
+    margin: 0px;
+    padding: 5px 20px 5px 10px;
+    width: 250px;
+    background-color: rgb(255,255,255,0.9);
+    border: 1px solid black;
+    z-index: 999;
+  }
+
+  .option_kanjifilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .option_kanjifilter input {
+    width: 5em;
+    font-size: 16px;
+  }
+
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+  }
